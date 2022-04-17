@@ -19,7 +19,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
-
 <body>
   <!---Nav Bar--->
   <div class="container">
@@ -28,6 +27,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">Доставка</a>
@@ -36,7 +36,6 @@
             <a class="nav-link" href="#">Концепция ноль отходов</a>
           </li>
         </ul>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item dropstart">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"><i class="fa-solid fa-user"></i></a>
@@ -57,34 +56,34 @@
   </nav>
   <!-- carousel -->
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
         <img class="card-img" src="img/quote.jpg" alt="Card image">
-        <div class="card-img-overlay"><mark> &quot; We don’t need <span>a handful</span> of people<br> doing zero-waste perfectly. <br>We need<span> millions</span> of people doing it imperfectly. &quot;</mark></div>
-      </div>
-      <div class="carousel-item">
-        <img class="card-img" src="img/wp9396786.jpg" alt="Card image">
-        <div class="card-img-overlay"><strong> Начни менять свой образ жизни <a href=""><span>прямо сейчас!</span></a></strong></div>
-      </div>
-      <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="d-flex justify-content-center">
-            <div class="row">
-              <div class="col-4">
-                <img src="img/shoot1.jpg" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-4">
-                <img src="img/shoot2.jpg" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-4">
-                <img src="img/shoot3.jpg" class="img-thumbnail" alt="...">
-              </div>
-            </div>
-          </div>
+      <div class="card-img-overlay"><mark > &quot; We don’t need <span>a handful</span> of people<br> doing zero-waste perfectly. <br>We need<span> millions</span> of people doing it imperfectly. &quot;</mark></div>
+    </div>
+    <div class="carousel-item">
+<img class="card-img" src="img/wp9396786.jpg" alt="Card image">
+<div class="card-img-overlay"><strong> Начни менять свой образ жизни <a href=""><span>прямо сейчас!</span></a></strong></div>
+    </div>
+    <div class="carousel-item">
+      <div class="container-fluid-lg">
+    <div class="d-flex justify-content-center">
+    <div class="row">
+        <div class="col-4">
+<img src="img/shoot1.jpg" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col-4">
+<img src="img/shoot2.jpg" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col-4">
+<img src="img/shoot3.jpg" class="img-thumbnail" alt="...">
         </div>
       </div>
     </div>
-  </div>
+      </div>
+        </div>
+        </div>
+    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
@@ -94,7 +93,7 @@
     <span class="carousel-control-next-icon"></span>
     <span class="visually-hidden">Next</span>
   </button>
-  </div>
+</div>
   <!-- catalogue -->
   <div class="container p-5">
     <!---lifestyle--->
@@ -107,9 +106,7 @@
       <div class="col-4">
         <div class="card p-3 my-3">
           <div class="imgcontainer">
-            <img src="catalogue/shopper1.jpg" alt="Shopping bag" style="width:100%"><span class="badge bg-danger">Скидка!</span>
-          </div>
-          <div class="text-center">Шоппер<br>100% хлопок<br><del>4990тг.</del><ins>3990тг.</ins>
+    <img src="catalogue/shopper1.jpg" alt="Shopping bag" style="width:100%"><span class="badge bg-danger">Скидка!</span></div><div class="text-center">Шоппер<br>100% хлопок<br><del>4990тг.</del><ins>3990тг.</ins>
             <button type="button" class="btn btn-primary btn-sm">добавить в корзину</button>
           </div>
         </div>
@@ -124,10 +121,8 @@
       </div>
       <div class="col-4">
         <div class="card p-3 my-3">
-          <div class="imgcontainer">
-            <img src="catalogue/avoska1.jpg" alt="String bag" style="width:100%"><span class="badge bg-success">Новинка!</span>
-          </div>
-          <div class="text-center">Авоська<br> 100% хлопок<br> 2700тг.
+              <div class="imgcontainer">
+            <img src="catalogue/avoska1.jpg" alt="String bag" style="width:100%"><span class="badge bg-success">Новинка!</span></div> <div class="text-center">Авоська<br> 100% хлопок<br> 2700тг.
             <button type="button" class="btn btn-primary btn-sm">добавить в корзину</button>
           </div>
         </div>
@@ -138,18 +133,15 @@
     <div class="row">
       <div class="col-4">
         <div class="card p-3 my-3">
-          <img src="catalogue/bamboofive1.jpg" alt="Bamboo set of 5" style="width:100%">
-          <div class="text-center"> Набор приборов(5ед.)<br>бамбук<br>3900тг.
+            <img src="catalogue/bamboofive1.jpg" alt="Bamboo set of 5" style="width:100%"><div class="text-center"> Набор приборов(5ед.)<br>бамбук<br>3900тг.
             <button type="button" class="btn btn-primary btn-sm">добавить в корзину</button>
           </div>
         </div>
       </div>
       <div class="col-4">
         <div class="card p-3 my-3">
-          <div class="imgcontainer">
-            <img src="catalogue/cup1.jpg" alt="Silicon cup" style="width:100%"><span class="badge bg-danger">Скидка!</span>
-          </div>
-          <div class="text-center">Складной стакан<br>силикон (bpa-free)<br><del> 5500тг.</del><ins>4800тг.</ins>
+                <div class="imgcontainer">
+            <img src="catalogue/cup1.jpg" alt="Silicon cup" style="width:100%"><span class="badge bg-danger">Скидка!</span></div>  <div class="text-center">Складной стакан<br>силикон (bpa-free)<br><del> 5500тг.</del><ins>4800тг.</ins>
             <button type="button" class="btn btn-primary btn-sm">добавить в корзину</button>
           </div>
         </div>
