@@ -105,10 +105,11 @@ border-radius: 0.25rem;
   height: 500px!important;
 }
 @keyframes blink {
-  40% {
+  50% {
     opacity: 0.0;
   }
 }
 .blink {
+  background-color: #c3dfc7;
   animation: blink 1.5s linear infinite;
 }
