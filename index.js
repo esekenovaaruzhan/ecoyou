@@ -30,4 +30,4 @@ function notify (){
     alert("Спасибо! Мы прислали вам письмо на" + mail)
 }
 }
-document.getElementById('incentive').addEventListener('click', notify);
+document.getElementById('incentive').addEventListener('mouseenter', notify);
