@@ -71,13 +71,19 @@
           <div class="d-flex justify-content-center">
             <div class="row">
               <div class="col-lg-4 col-md-4 col-xs-12">
-                <img src="img/shoot1.jpg" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-lg-4 col-md-4 col-xs-12">
-                <img src="img/shoot2.jpg" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-lg-4 col-md-4 col-xs-12">
-                <img src="img/shoot3.jpg" class="img-thumbnail" alt="...">
+              <a href = "#" onMouseOver = "document.myImage1.src = image2.src;"
+       onMouseOut = "document.myImage1.src = image1.src;">
+       <img name = "myImage1"class="img-thumbnail" src = "img/slide1.jpg"></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+              <a href = "#" onMouseOver = "document.myImage2.src = image4.src;"
+       onMouseOut = "document.myImage2.src = image3.src;">
+       <img name = "myImage2"class="img-thumbnail" src = "img/slide3.jpg"></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+              <a href = "#" onMouseOver = "document.myImage3.src = image6.src;"
+       onMouseOut = "document.myImage3.src = image5.src;">
+       <img name = "myImage3"class="img-thumbnail" src = "img/slide5.jpg"></a>
               </div>
             </div>
           </div>
@@ -148,7 +154,7 @@
         <div class="col-lg-4 col-md-6 col-md-12">
           <div class="card p-3 my-3">
             <div class="imgcontainer">
-              <img src="catalogue/avoska1.jpg" alt="String bag" style="width:100%"><span id="incentive" class="badge bg-success">Новинка!</span>
+              <img src="catalogue/avoska1.jpg" alt="String bag" style="width:100%"><button id="incentive" class="badge btn btn-primary btn-sm">Новинка!</button>
             </div>
             <div class="text-center">Авоська<br> 100% хлопок<br> 2700тг.
               <button type="button" class="btn btn-primary btn-sm">добавить в корзину</button>
