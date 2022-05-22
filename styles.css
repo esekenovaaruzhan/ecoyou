@@ -104,3 +104,11 @@ border-radius: 0.25rem;
 .img-fluid{
   height: 500px!important;
 }
+@keyframes blink {
+  40% {
+    opacity: 0.0;
+  }
+}
+.blink {
+  animation: blink 1.5s linear infinite;
+}
